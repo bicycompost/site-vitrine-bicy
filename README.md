@@ -12,6 +12,7 @@ Aucune base de données, aucun serveur applicatif : de simples fichiers à dépo
 | `site/assets/medias/` | Images, PDF, polices, CSS et JS rapatriés de Webflow. |
 | `site/.htaccess` | Adresses sans `.html`, HTTPS + www forcés, page 404, cache. |
 | `outils/apercu.py` | Aperçu local : `python3 outils/apercu.py` puis http://localhost:8000 |
+| `outils/optimiser_images.py` | Allège les images (WebP) et les polices (WOFF2) : à relancer après ajout de nouvelles images. |
 | `outils/construire_site.py` | Script qui a converti la copie Webflow (utile seulement pour refaire une copie). |
 
 ## Mettre à jour le site

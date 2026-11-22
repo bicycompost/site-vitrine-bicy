@@ -2133,7 +2133,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Ltsuperior;
-  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe377f_LTSuperior-SemiBold.otf") format("opentype");
+  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe377f_LTSuperior-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -2141,7 +2141,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Ltsuperior;
-  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3785_LTSuperior-Black.otf") format("opentype");
+  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3785_LTSuperior-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -2149,7 +2149,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Ltsuperior;
-  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3781_LTSuperior-Thin.otf") format("opentype");
+  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3781_LTSuperior-Thin.woff2") format("woff2");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -2157,7 +2157,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Ltsuperior;
-  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3786_LTSuperior-Light.otf") format("opentype");
+  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3786_LTSuperior-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -2165,7 +2165,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Ltsuperior;
-  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3783_LTSuperior-ExtraLight.otf") format("opentype");
+  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3783_LTSuperior-ExtraLight.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -2173,7 +2173,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Ltsuperior;
-  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3782_LTSuperior-Regular.otf") format("opentype");
+  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3782_LTSuperior-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -2181,7 +2181,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Ltsuperior;
-  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3788_LTSuperior-Bold.otf") format("opentype");
+  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3788_LTSuperior-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -2189,7 +2189,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Ltsuperior;
-  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3784_LTSuperior-Medium.otf") format("opentype");
+  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3784_LTSuperior-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -2197,7 +2197,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Ltsuperior;
-  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3787_LTSuperior-ExtraBold.otf") format("opentype");
+  src: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe3787_LTSuperior-ExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -6155,7 +6155,7 @@ h4 {
 }
 
 .div-block-101 {
-  background-image: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe380c_Rectangle-31.png");
+  background-image: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe380c_Rectangle-31.webp");
   background-position: 50%;
   background-size: cover;
   border: 0 solid #000;
@@ -6173,7 +6173,7 @@ h4 {
 }
 
 .div-block-101.compostage {
-  background-image: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe380b_Rectangle-32.png");
+  background-image: url("/assets/medias/66864ccd4d9ce501abfe3763/66864ccd4d9ce501abfe380b_Rectangle-32.webp");
 }
 
 .div-block-102 {
