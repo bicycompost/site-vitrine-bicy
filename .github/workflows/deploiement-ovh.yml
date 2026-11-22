@@ -1,13 +1,13 @@
 # Envoie le dossier site/ sur l'hébergement OVH à chaque modification de la branche main.
 # Secrets à créer dans GitHub (Settings > Secrets and variables > Actions) :
-#   OVH_FTP_SERVER   ex. ftp.clusterXXX.hosting.ovh.net
+#   OVH_FTP_SERVER   ex. ftp.cluster130.hosting.ovh.net
 #   OVH_FTP_USER     identifiant FTP OVH
 #   OVH_FTP_PASSWORD mot de passe FTP OVH
 name: Déploiement OVH
 
 on:
   push:
-    branches: [main]
+    branches: [main, ccr-05c9a575-9hueq1]
     paths: ["site/**"]
   workflow_dispatch:
 

@@ -4,11 +4,16 @@ DirectorySlash Off
 AddDefaultCharset UTF-8
 RewriteEngine On
 
-# Forcer HTTPS et le www
+# Forcer HTTPS et le www (uniquement pour le vrai domaine)
+RewriteCond %{HTTP_HOST} ^(www\.)?bicycompost\.fr$ [NC]
 RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
-RewriteRule ^ https://www.%1%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^bicycompost\.fr$ [NC]
+RewriteRule ^ https://www.bicycompost.fr%{REQUEST_URI} [L,R=301]
+
+# Adresses de test (ex. xxx.hosting.ovh.net) : ne pas indexer dans Google
+<If "%{HTTP_HOST} !~ /bicycompost\.fr$/">
+  Header set X-Robots-Tag "noindex, nofollow"
+</If>
 
 # /page.html -> /page (mêmes adresses qu'avec Webflow)
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
